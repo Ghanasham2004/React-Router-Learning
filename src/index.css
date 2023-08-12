@@ -1,21 +1,21 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-*{
+* {
   list-style: none;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,34 +24,61 @@ nav{
   color: #fff;
   height: 60px;
 }
-nav ul{
+nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-nav ul li{
+nav ul li {
   margin-left: 20px;
 }
-nav ul li a{
+nav ul li a {
   color: #ccc;
   text-decoration: none;
 }
-nav ul li a:hover{
-  color: #ccc;
+nav ul li a:hover {
+  color: #f1f0f0;
 }
-/* on link active then apply this css using css file */
-nav ul li a.active{
+nav ul li a.active {
   color: #fff;
   font-weight: bold;
 }
-.container{
-  max-width: 1200px;
+/* containers css */
+.container {
+  max-width: 80%;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 10px 10px;
+}
+
+.sub-container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+/* tab-menu css */
+ul.tab-menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 2rem;
+  background-color: #000000;
+  border-radius: 6px; 
+  gap: 2rem;
+}
+
+ul.tab-menu .tab-menu-item a {
+  color: #ccc;
+  text-decoration: none;
+}
+ul.tab-menu .tab-menu-item a:hover {
+  color: #f1f0f0;
+}
+ul.tab-menu .tab-menu-item a.active {
+  color: #fff;
 }
 
 /* button css */
-button{
+button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
@@ -60,14 +87,37 @@ button{
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-button:hover{
+button:hover {
   background-color: #050505;
   color: #ffffff;
   box-shadow: 0 2px 6px #c5c5c5;
 }
-button:focus{
+button:focus {
   outline: none;
 }
-button:active{
+button:active {
+  transform: scale(0.98);
+}
+
+/* input css */
+input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+input:hover {
+  background-color: #050505;
+  color: #ffffff;
+  box-shadow: 0 2px 6px #c5c5c5;
+}
+input:focus {
+  outline: none;
+}
+input:active {
   transform: scale(0.98);
 }
