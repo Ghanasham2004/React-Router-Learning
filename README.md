@@ -1,4 +1,4 @@
-```markdown
+
 # React.js and React Router Learning
 
 Welcome to my repository for learning React.js and the React Router concept! This repository contains code examples and projects that I've worked on while following the tutorials from the 'Codevolution' YouTube channel's playlist.
@@ -56,4 +56,3 @@ I welcome contributions to this repository! If you find any issues or have impro
 Happy coding!
 
 [Ghanasham Irashetti]
-```
