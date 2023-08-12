@@ -93,6 +93,11 @@ ul.tab-menu .tab-menu-item a.active {
 
 
 /* button css */
+.buttons{
+  display: flex;
+  gap: 1rem;
+}
+
 button {
   padding: 10px 20px;
   border: none;
