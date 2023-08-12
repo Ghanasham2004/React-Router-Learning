@@ -30,7 +30,6 @@ function App() {
           <Route path=":userId" element={<UserDetails />} />
           <Route path="admin" element={<Admin />} />
         </Route>
-
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </>

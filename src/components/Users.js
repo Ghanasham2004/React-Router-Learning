@@ -1,12 +1,20 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 const Users = () => {
   return (
     <>
       <div className="container">
-        <h2>Users 1</h2>
-        <h2>Users 2</h2>
-        <h2>Users 3</h2>
+        <ul>
+            <li>
+                <Link to="/users/1">User 1</Link>
+            </li>
+            <li>
+                <Link to="/users/2">User 2</Link>
+            </li>
+            <li>
+                <Link to="/users/3">User 3</Link>
+            </li>
+        </ul>
       </div>
       <div className="container">
         <Outlet />
