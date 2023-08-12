@@ -24,7 +24,7 @@ function App() {
           <Route index element={<FeaturedProducts />} />
           <Route path="feature" element={<FeaturedProducts />} />
           <Route path="new" element={<NewProducts />} />
-        </Route>
+        </Route> 
         <Route path="users" element={<Users />}>
           {/* // add dynamic route for user details page and admin page  */}
           <Route path=":userId" element={<UserDetails />} />

@@ -17,6 +17,7 @@ const Products = () => {
             <NavLink to="feature">Feature</NavLink>
           </li>
           <li className="tab-menu-item">
+            {/* // '/' is used to make the path relative to the parent route. and without '/' it will be absolute path.  */}
             <NavLink to="new">New</NavLink>
           </li>
         </ul>
