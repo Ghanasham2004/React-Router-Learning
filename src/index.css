@@ -128,7 +128,6 @@ input {
   color: #fff;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  margin-top: 1rem;
 }
 input:hover {
   background-color: #050505;
@@ -142,3 +141,81 @@ input:active {
   transform: scale(0.98);
 }
 
+.btn-primary{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background-color: #0069d9;
+  box-shadow: none;
+}
+
+.login-panel{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding:  3rem;
+  width: fit-content;
+  margin: 4rem auto;
+  box-shadow: 0 2px 6px #c5c5c5;
+}
+.login-panel h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0;
+  text-decoration: dashed underline;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  gap: .5rem;
+}
+.input-box label{
+  font-size: 1rem;
+  font-weight: 600;
+}
+.input-box input{
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #141414;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.input-box input:hover {
+  background-color: #ffffff;
+  color: #141414;
+  box-shadow: 0 2px 6px #c5c5c5;
+}
+.input-box input:active {
+  transform: scale(0.98);
+}
+.input-box  button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.input-box  button:hover {
+  background-color: #0069d9;
+  color: #ffffff;
+}
+.input-box  button:active {
+  transform: scale(0.98);
+}
